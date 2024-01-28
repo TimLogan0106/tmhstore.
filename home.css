@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+.title{
+    text-align: center;
+}
+.slideshow{
+    /* padding-top: 80px; */
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.nav{
+    background: rgb(247, 247, 247);
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+}
+.nav-item{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: rgb(240, 15, 15);
+}
+.nav-item:hover{
+    background: rgb(211, 64, 64);
+    color: white;
+}
